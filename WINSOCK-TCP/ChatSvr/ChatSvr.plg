@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChatSvr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ChatSvr.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\ChatSvr.rc"" 
+Creating temporary file "C:\Users\chen\AppData\Local\Temp\RSP83B3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatSvr.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\ChatSvr.cpp"
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\ChatSvrDlg.cpp"
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\ClientSocket.cpp"
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\InitDlg.cpp"
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\ListeningSocket.cpp"
+]
+Creating command line "cl.exe @C:\Users\chen\AppData\Local\Temp\RSP83B3.tmp" 
+Creating temporary file "C:\Users\chen\AppData\Local\Temp\RSP83B4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatSvr.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\chen\Desktop\codefans.net\ÍøÂçÁÄÌìWINSOCK-TCP\ChatSvr\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\chen\AppData\Local\Temp\RSP83B4.tmp" 
+Creating temporary file "C:\Users\chen\AppData\Local\Temp\RSP83B5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ChatSvr.pdb" /debug /machine:I386 /out:"Debug/ChatSvr.exe" /pdbtype:sept 
+".\Debug\ChatSvr.obj"
+".\Debug\ChatSvrDlg.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\InitDlg.obj"
+".\Debug\ListeningSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ChatSvr.res"
+]
+Creating command line "link.exe @C:\Users\chen\AppData\Local\Temp\RSP83B5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatSvr.cpp
+ChatSvrDlg.cpp
+ClientSocket.cpp
+InitDlg.cpp
+ListeningSocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ChatSvr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
